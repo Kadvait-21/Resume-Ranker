@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.env.*    # any other environment files
+*.sqlite3
+*.db
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.envs/
+
+# Streamlit / App-specific
+data/embed_cache.pkl
+*.log
+*.tmp
+*.pickle
+*.pkl
+*.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.ipynb_checkpoints/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Git
+*.orig
